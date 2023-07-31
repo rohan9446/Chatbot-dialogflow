@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+
+
+</head>
+<style>
+    df-messenger {
+        --df-messenger-bot-message: #878fac;
+        --df-messenger-button-titlebar-color: #a41a9b;
+        --df-messenger-chat-background-color: #fafafa;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #878fac;
+        --df-messenger-user-message: #ea47d5;
+    }
+</style>
+
+<body>
+    
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger 
+    intent="WELCOME" 
+    chat-title="DuoChat"
+    chat-icon="https://t4.ftcdn.net/jpg/05/10/87/95/360_F_510879590_4rFLdOZeNU3dAY9odAwqnkdQRfYnhuwJ.jpg"
+    agent-id="44085b3d-880c-49d1-acd8-7b502aa9d3a5"
+    language-code="en">
+    </df-messenger>
+
+</body>
+
+
+</html>
